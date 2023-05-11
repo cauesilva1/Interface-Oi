@@ -1,0 +1,90 @@
+header {
+    background-color: #FCFCFC;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+.green-bar {
+    background-color: green;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 15vh;
+    width: auto;
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+.container {
+    margin-top: 5vh;
+    border: 1px solid #0000006d;
+    border-radius: 3vh;
+    height: 70vh;
+    display: flex;
+    padding-left: 2vh;
+
+}
+
+.ladoD {
+    margin-top: 2vh;
+}
+
+.table-left{
+    height: 25vh;
+    border-radius: 1vh;
+    border: 1px solid #0000006d;
+    overflow-y: auto;
+}
+
+.table-left::-webkit-scrollbar{
+    border-radius: 5vh;
+    width: 1vh;
+}
+
+.table-left::-webkit-scrollbar-thumb{
+    border-radius: 3vh;
+    background-color: #04943C;
+}
+
+.ladoE{
+    border: 1px solid #575656;
+    border-radius: 3vh;
+    margin: 2vh;
+    margin-left: 3vh;
+    overflow-y: auto;
+    
+}
+
+.ladoE::-webkit-scrollbar{
+    border-radius: 5vh;
+    width: 1vh;
+}
+
+.ladoE::-webkit-scrollbar-thumb{
+    border-radius: 3vh;
+    background-color: #04943C;
+}
+
+.divFinal{
+    margin-top: 10vh;
+    background-color: #575656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border-radius: 5vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
