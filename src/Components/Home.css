@@ -1,16 +1,4 @@
-header {
-    background-color: #FCFCFC;
-    border-bottom: 1px solid gray;
-    position: relative;
-}
-
-.green-bar {
-    background-color: green;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-}
-
+/* 
 .img{
     height: 15vh;
     width: auto;
@@ -87,4 +75,47 @@ h1 {
 
 p {
     font-size: 18px;
+} */
+
+
+
+.container {    
+    margin-top: 2rem;
+    background-color: rgba(0, 128, 0, 0.692);
+    border: 1px solid #0000006d;
+    border-radius: 3vh;
+    padding-left: 1rem;
+    width: 30rem;
+}
+
+.formbooks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-books{
+    margin: 2rem;
+    background-color: rgba(0, 128, 0, 0);
+    border: 2px solid #004d00;
+    border-radius: 1vh;
+
+}
+
+.text-books{
+    border: 1px solid #000000;
+    border-radius: 1vh;
+}
+
+.input-books:hover{
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px #007500;
+    transition: 1s;
 }

@@ -1,0 +1,12 @@
+header {
+    background-color: #FCFCFC;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+.green-bar {
+    background-color: green;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
