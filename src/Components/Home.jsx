@@ -11,60 +11,43 @@ function Home() {
 
       <><Header />
       
-      {/* <body>
+      <body>
       <div className="container">
         <div className="ladoD">
           <div className="table-left">
-            <Table className="table-head" striped bordered hover>
-              <thead>
-                <tr>
-                  <th>ID:</th>
-                  <th>Nome:</th>
-                  <th>Valor:</th>
-                  <th>Procedimento:</th>
-                  <th>Profissional:</th>
-                  <th>Horario:</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Caue</td>
-                  <td>R$ 5,00</td>
-                  <td>Fisioterapia geral</td>
-                  <td>Joao figueiredo</td>
-                  <td>12:00</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Caue</td>
-                  <td>R$ 5,00</td>
-                  <td>Fisioterapia geral</td>
-                  <td>Joao figueiredo</td>
-                  <td>12:00</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Caue</td>
-                  <td>R$ 5,00</td>
-                  <td>Fisioterapia geral</td>
-                  <td>Joao figueiredo</td>
-                  <td>12:00</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Caue</td>
-                  <td>R$ 5,00</td>
-                  <td>Fisioterapia geral</td>
-                  <td>Joao figueiredo</td>
-                  <td>12:00</td>
-                </tr>
-              </tbody>
-            </Table>
+            <form action="" method="post" className="form">
+                <h3>adicione sua nota aqui:</h3>
+              <div className="form-princ">
+            <label htmlFor="" className="input">
+                Titulo:
+                <input 
+                type="text" 
+                // value={titulo}
+                />
+              </label>
+              <label htmlFor="" className="input">
+                Nota:
+                <input 
+                type="text" 
+                // value={nota}
+                />
+              </label>
+              </div>
+              <div>
+              <input type="radio" id="huey" name="prioridade" className="input-radio" value="huey" checked />
+              <label for="huey">Prioridade</label>
+              </div>
+              <div>
+              <input type="radio" id="huey" name="prioridade" className="input-radio" value="huey" checked />
+              <label for="huey">Não Prioridade</label>
+              </div>
+
+            </form>
           </div>
           <div>
             <div className="divFinal">
-              <h1>informação</h1>
+              <h1>Ultima nota adicionada Foi:</h1>
+              <h2>Titulo</h2>
             </div>
           </div>
 
@@ -73,37 +56,20 @@ function Home() {
           <Table className="table-head" striped bordered hover>
             <thead>
               <tr>
-                <th>ID:</th>
-                <th>Nome:</th>
-                <th>Valor:</th>
-                <th>Procedimento:</th>
-                <th>Profissional:</th>
-                <th>Horario:</th>
+                <th>Titulo:</th>
+                <th>Nota:</th>
+                <th>Prioridade:</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
-                <td>Caue</td>
-                <td>R$ 5,00</td>
-                <td>Fisioterapia geral</td>
-                <td>Joao figueiredo</td>
-                <td>12:00</td>
+                <td>Teste</td>
+                <td>Teste1</td>
+                <td>true or false</td>
               </tr>
             </tbody>
           </Table>
         </div>
-      </div>
-    </body> */}
-
-    <body>
-      <div className="container">
-          <form action="/livros" method="post" className="formbooks">
-            <label className="form-inputs"> Titulo:
-            <input className="text-books" type="text" id="titulo" placeholder=" titulo do livro"/>
-            </label>
-            <button type="submit" className="input-books">Cadastrar</button>
-          </form>
       </div>
     </body>
     

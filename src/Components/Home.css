@@ -1,4 +1,4 @@
-/* 
+
 .img{
     height: 15vh;
     width: auto;
@@ -12,40 +12,57 @@ body {
     margin-top: 5vh;
     border: 1px solid #0000006d;
     border-radius: 3vh;
-    height: 70vh;
+    /* height: 70vh; */
+    padding: 1.2rem;
     display: flex;
     padding-left: 2vh;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ladoD {
     margin-top: 2vh;
 }
 
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-radio{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 .table-left{
-    height: 25vh;
-    border-radius: 1vh;
+    /* height: 25vh; */
+    padding: 1.5rem;
+    border-radius: 2vh;
     border: 1px solid #0000006d;
-    overflow-y: auto;
 }
 
-.table-left::-webkit-scrollbar{
-    border-radius: 5vh;
-    width: 1vh;
+.input{
+    display: flex;
+    flex-direction: column;
 }
 
-.table-left::-webkit-scrollbar-thumb{
-    border-radius: 3vh;
-    background-color: #04943C;
+.form-princ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .ladoE{
+    display: flex;
     border: 1px solid #575656;
     border-radius: 3vh;
     margin: 2vh;
-    margin-left: 3vh;
     overflow-y: auto;
-    
+    margin-left: 15%;
 }
 
 .ladoE::-webkit-scrollbar{
@@ -59,11 +76,12 @@ body {
 }
 
 .divFinal{
-    margin-top: 10vh;
+    margin-top: 0.5rem;
     background-color: #575656;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 30vh;
     border-radius: 5vh;
 }
@@ -75,47 +93,4 @@ h1 {
 
 p {
     font-size: 18px;
-} */
-
-
-
-.container {    
-    margin-top: 2rem;
-    background-color: rgba(0, 128, 0, 0.692);
-    border: 1px solid #0000006d;
-    border-radius: 3vh;
-    padding-left: 1rem;
-    width: 30rem;
-}
-
-.formbooks{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem;
-}
-
-.form-inputs{
-    display: flex;
-    flex-direction: column;
-}
-
-.input-books{
-    margin: 2rem;
-    background-color: rgba(0, 128, 0, 0);
-    border: 2px solid #004d00;
-    border-radius: 1vh;
-
-}
-
-.text-books{
-    border: 1px solid #000000;
-    border-radius: 1vh;
-}
-
-.input-books:hover{
-    border-radius: 2rem;
-    box-shadow: 0 10px 20px #007500;
-    transition: 1s;
 }
